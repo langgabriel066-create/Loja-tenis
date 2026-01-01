@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lang Imports | Urban Couture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --neon: #bc13fe; --bg: #0a0a0a; }
+        body { background-color: var(--bg); color: white; font-family: 'Inter', sans-serif; }
+        .neon-text { color: var(--neon); text-shadow: 0 0 10px rgba(188, 19, 254, 0.5); }
+        .btn-buy { background: linear-gradient(90deg, #8b5cf6, #bc13fe); transition: 0.3s; }
+        .btn-buy:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(188, 19, 254, 0.4); }
+        .card { background: #121212; border: 1px solid #222; transition: 0.3s; }
+        .card:hover { border-color: var(--neon); }
+    </style>
+</head>
+<body>
+
+    <nav class="py-8 flex flex-col items-center border-b border-zinc-800">
+        <img src="https://i.postimg.cc/7hdpBRx7/IMG-9207.png" alt="Lang Imports" class="h-20 mb-2">
+        <span class="text-xs tracking-[0.3em] uppercase text-zinc-500">Urban Couture</span>
+    </nav>
+
+    <header class="text-center py-16 px-6">
+        <h1 class="text-4xl md:text-6xl font-black italic mb-4">DOMINE AS <span class="neon-text">RUAS</span></h1>
+        <p class="text-zinc-400 max-w-md mx-auto mb-8">Coleção exclusiva de importados selecionados para quem não aceita o comum.</p>
+        <div class="flex justify-center gap-4 text-xs font-bold uppercase tracking-widest text-zinc-500">
+            <span>⚡ Edição Limitada</span>
+            <span>📦 Frete Grátis</span>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 pb-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="card rounded-3xl overflow-hidden shadow-2xl">
+                <img src="https://i.postimg.cc/gk5Y5MM4/IMG-9269.jpg" class="w-full h-80 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold uppercase mb-2">Dunk Twist Black</h3>
+                    <p class="text-zinc-500 text-sm mb-4 italic text-zinc-400">Design robusto e acabamento premium.</p>
+                    <p class="text-2xl font-black mb-6">R$ 347,00</p>
+                    <a href="https://langimport.vendizap.com/produto?produto=69560483d0dec7b548021611" class="btn-buy block w-full py-4 rounded-xl font-bold uppercase tracking-wider text-sm">Comprar Agora</a>
+                </div>
+            </div>
+
+            <div class="card rounded-3xl overflow-hidden shadow-2xl text-center">
+                <img src="https://i.postimg.cc/xCtQPgJV/d90420b9-998c-40a3-868a-b5cf2f181c06.jpg" class="w-full h-80 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold uppercase mb-2">Court Vision Alta Branco</h3>
+                    <p class="text-zinc-500 text-sm mb-4 italic text-zinc-400">O clássico que nunca sai de cena.</p>
+                    <p class="text-2xl font-black mb-6">R$ 297,00</p>
+                    <a href="https://langimport.vendizap.com/produto?produto=695606b752e7862eba052af9" class="btn-buy block w-full py-4 rounded-xl font-bold uppercase tracking-wider text-sm">Comprar Agora</a>
+                </div>
+            </div>
+
+            <div class="card rounded-3xl overflow-hidden shadow-2xl text-center border-2 border-purple-900/50">
+                <div class="bg-purple-900 text-[10px] py-1 font-bold uppercase">Mais Vendido</div>
+                <img src="https://i.postimg.cc/9XgVR8jh/IMG-9270.webp" class="w-full h-80 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold uppercase mb-2">Adidas AD2000 B/P</h3>
+                    <p class="text-zinc-500 text-sm mb-4 italic text-zinc-400">Estética Y2K com conforto moderno.</p>
+                    <p class="text-2xl font-black mb-6">R$ 329,00</p>
+                    <a href="https://langimport.vendizap.com/produto?produto=6956073497dff4002e088447" class="btn-buy block w-full py-4 rounded-xl font-bold uppercase tracking-wider text-sm">Comprar Agora</a>
+                </div>
+            </div>
+
+            <div class="card rounded-3xl overflow-hidden shadow-2xl text-center">
+                <img src="https://i.postimg.cc/3JPT9kRv/IMG-9272.webp" class="w-full h-80 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold uppercase mb-2">AF1 Branco Corda</h3>
+                    <p class="text-zinc-500 text-sm mb-4 italic text-zinc-400">Edição limitada com atacadores em corda.</p>
+                    <p class="text-2xl font-black mb-6">R$ 367,00</p>
+                    <a href="https://langimport.vendizap.com/produto?produto=6956079997dff4002e08844b" class="btn-buy block w-full py-4 rounded-xl font-bold uppercase tracking-wider text-sm">Comprar Agora</a>
+                </div>
+            </div>
+
+            <div class="card rounded-3xl overflow-hidden shadow-2xl text-center">
+                <img src="https://i.postimg.cc/1zVV2ncR/IMG-9275.webp" class="w-full h-80 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold uppercase mb-2">Puma 180 Cinza</h3>
+                    <p class="text-zinc-500 text-sm mb-4 italic text-zinc-400">O auge do estilo skate chunky.</p>
+                    <p class="text-2xl font-black mb-6">R$ 317,00</p>
+                    <a href="https://langimport.vendizap.com/produto?produto=695607f32e8619370b01c0ea" class="btn-buy block w-full py-4 rounded-xl font-bold uppercase tracking-wider text-sm">Comprar Agora</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-zinc-950 py-12 px-6 border-t border-zinc-800 text-center">
+        <h2 class="text-xl font-bold mb-4">Dúvidas sobre o tamanho?</h2>
+        <p class="text-zinc-500 text-sm mb-6">Fale com nossos especialistas agora no WhatsApp.</p>
+        <a href="https://wa.me/5549988770740" class="inline-flex items-center gap-2 bg-green-600 px-6 py-3 rounded-full font-bold text-sm hover:bg-green-700 transition">
+            <i class="fab fa-whatsapp text-lg"></i> SUPORTE WHATSAPP
+        </a>
+        <div class="mt-10 pt-8 border-t border-zinc-900 text-zinc-600 text-[10px] uppercase tracking-widest">
+            © 2026 Lang Imports - Urban Couture | CNPJ: 00.000.000/0001-00
+        </div>
+    </footer>
+
+</body>
+</html>
